@@ -6,6 +6,25 @@ The bitshoka gamma is a fork of the reference bitaxe gamma 601 design. It is  el
 
 ![bitaxeUltra assembled](doc/bitShokaGamma-cover.png)
 
+# Changes
+Changes from the bitaxe gamma 601 reference design:
+
+1. all caps and resistors changed to 0805 or larger to enable hand soldering
+2. Testpoints changed to through hole versions for accessibility from both board sides.
+3. Placed testpoints outside of the heat sink area for accessibility
+4. Re-located components to accommodate above changes
+5. Added ground plane pours on all layers where space permitted for better heat conductivity and spread along the board
+6. Improved the symmetry of the heat sink alignment with the chip and and mounting holes  3 x 58.483mm
+7. Added labels on both sides for better readability
+8. Squared out the board 
+9. Added 2 large solder joints for an alternate power supply to the barrel connector, which can optionally also take a terminal block or pühoenix terminal
+10. Added footprints for optional external i2c pullip resistors (if needed)
+11. Changed 2 heat sink mounting holes for an alternate heat sink 3 x 53.2mm
+12. L1 Footprint was changed to fit the LCSC C5273929 datasheet specs
+13. Components were aligned and straightened
+14. Copper areas were adjusted and tweaked
+15. New Bitshoka logo included as an exclusion area
+
 ## Goals
 - **Easy**: Just plug it in and mine Bitcoin over WiFi. No external computer needed.
 - **Practical**: low cost, low noise, low power, low maintenance. You can run this at home.

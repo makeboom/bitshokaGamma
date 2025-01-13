@@ -2,9 +2,9 @@
 Open Source is Intrinsic to Bitcoin
 ```
 # The bishokaGamma
-The bitshoka gamma is a fork of the reference bitaxe gamma 601 design. It is  electrically identical with only some mechanical and graphical changes.
+SHOKA is an Axe in Swahili. The bitshoka gamma is a fork of the reference bitaxe gamma 601 design. It is electrically identical with only some mechanical and graphical changes to the design.
 
-![bitaxeUltra assembled](doc/bitShokaGamma-cover.png)
+![bitshoka Rendering](doc/bitShokaGamma-cover.png)
 
 ## Current Status
 - The bitshoka design is untested 

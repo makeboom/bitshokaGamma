@@ -24,6 +24,7 @@ Changes from the bitaxe gamma 601 reference design:
 13. Components were aligned and straightened
 14. Copper areas were adjusted and tweaked
 15. New Bitshoka logo included as an exclusion area
+16. The OLED connector was replaced with a "straight" type.
 
 ## Goals
 - **Easy**: Just plug it in and mine Bitcoin over WiFi. No external computer needed.
@@ -41,11 +42,7 @@ At the heart of the bitaxeGamma is a BM1370 Bitcoin mining ASIC from the Antmine
 - The BM1370 has a different footprint and pinout from the BM1368, BM1366, BM1397 and BM1387 in previous bitaxe.
 
 ## Current Status
-- BitaxeGamma 600 is working well and has been released!
-- In addition to higher hashrate, the Gamma also uses more power. Please pay attemtion to hash frequency and voltage settings as it's much easier to overheat, especially when using the stock heatsink and fan.
-- BM1370 firmware support has been added to [esp-miner](https://github.com/skot/esp-miner)
-- Be sure to check the [HW issues](https://github.com/skot/bitaxe/issues) for known bugs, reworks and errata.
-- This is an _advanced_ build! You can do it, but if you're not looking for a project, it might be best to buy one pre-assembled from one of the [many sellers](https://bitaxe.org/legit.html). Check [Skot's method](assembly.md) of hand assembling PCBs.
+- The bitshoka design is untested 
 
 ## PCB Hardware
 This repo contains all of the design files for the PCB. [KiCAD](https://www.kicad.com) software is used. There is a BOM file for all of the components that get soldered to the PCB. 
@@ -53,7 +50,7 @@ This repo contains all of the design files for the PCB. [KiCAD](https://www.kica
 - Order PCBs from your favorite PCB shop, like [JLCPCB](https://jlcpcb.com), [SeeedStudio](https://www.seeedstudio.com/fusion_pcb.html), or [PCBWay](https://www.pcbway.com)
     - Gerbers are in the `Manufacturing Files` dir. PCBs are 4-layer, 6mil trace/space and 0.3mm hole compatible. 1oz outer / 0.5oz inner layer thickness works well.
     - Make sure to order stencils too. These are the "paste" layers in the gerbers folder. one for top and one for bottom.
-- All PCB parts except the ASIC are available from [DigiKey](https://www.digikey.com/en/products) and others. You can find Digikey part numbers on the DK tab of the BOM
+- All PCB parts except the ASIC are available from [LCSC](https://www.digikey.com/en/products) and others. You can find Digikey part numbers on the DK tab of the BOM
 
 ## Extra Hardware
 There are a few other hardware components that are needed for a complete bitaxe.

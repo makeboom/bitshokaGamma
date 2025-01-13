@@ -4,7 +4,7 @@ Open Source is Intrinsic to Bitcoin
 # The bishokaGamma
 The bitshoka gamma is a fork of the reference bitaxe gamma 601 design. It is  electrically identical with only some mechanical and graphical changes.
 
-![bitaxeUltra assembled](doc/gamma.png)
+![bitaxeUltra assembled](doc/bitShokaGamma-cover.png)
 
 ## Goals
 - **Easy**: Just plug it in and mine Bitcoin over WiFi. No external computer needed.

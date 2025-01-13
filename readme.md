@@ -1,8 +1,8 @@
 ```
 Open Source is Intrinsic to Bitcoin
 ```
-# The bitaxeGamma
-bitaxe is a fully open source Bitcoin ASIC miner aimed at decentralizing mining. bitaxeGamma is the 5th major revision of the bitaxe that now includes the BM1370 ASIC from the Antminer S21 Pro
+# The bishokaGamma
+The bitshoka gamma is a fork of the reference bitaxe gamma 601 design. It is  electrically identical with only some mechanical and graphical changes.
 
 ![bitaxeUltra assembled](doc/gamma.png)
 
